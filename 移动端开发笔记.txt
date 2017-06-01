@@ -1,0 +1,13 @@
+ipone ipad滑屏效果
+使用的事件
+（单指操作）
+onmousedown   ontouchstart
+onmousemove   ontouchmove
+onmouseout    ontouchend
+
+移动端获取坐标
+var touchs=ev.changeTouches[0]  单指操作的一个对象，然后在找touchs.pageX
+
+练习
+1：手机轮播滑动     
+2：页面缓冲滑动（滚动条）
